@@ -10,10 +10,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return  Placeholder(
-      child: Container(
+    return Scaffold(
+      
+      body: Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         
-      ),
+        ),
     );
   }
 }
